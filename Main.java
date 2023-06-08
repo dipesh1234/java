@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class Main {
     public static void main(String[] args){
         int age = 30;
@@ -7,6 +9,9 @@ public class Main {
         boolean isEligible = true;
 
         System.out.println(age);
+
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(now);
 
 
     }
