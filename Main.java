@@ -1,7 +1,13 @@
 public class Main {
     public static void main(String[] args){
-        int myAge = 30;
-        int herAge = myAge;
-        System.out.println(herAge);
+        int age = 30;
+        long viewsCount = 1_234_567_890L;
+        float price = 10.23F;
+        char letter = 'A';
+        boolean isEligible = true;
+
+        System.out.println(age);
+
+
     }
 }
