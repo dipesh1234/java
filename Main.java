@@ -10,8 +10,8 @@ public class Main {
 
         System.out.println(age);
 
-        LocalDateTime now = LocalDateTime.now();
-        System.out.println(now);
+        LocalDateTime showDateTime = LocalDateTime.now();
+        System.out.println(showDateTime);
 
 
     }
