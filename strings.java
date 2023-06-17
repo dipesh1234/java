@@ -1,6 +1,6 @@
 public class strings {
     public static void main(String[] args){
-        String message = "  Hello World" + "!!";
+        String message = "  Hello World \"sucker\"" + "!!";
         System.out.println(message);
         System.out.println(message.toUpperCase());
         System.out.println(message.toLowerCase());
