@@ -7,5 +7,6 @@ public class all {
         
         String name = scanner.nextLine().trim();
         System.out.println("you are "+ name+ ".");
+        scanner.close();
 }
 }
