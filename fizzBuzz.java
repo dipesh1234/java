@@ -20,5 +20,6 @@ public class fizzBuzz {
             System.out.println(number);
         }
 
+        scanner.close();
     }
 }

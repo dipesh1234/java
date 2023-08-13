@@ -1,18 +1,16 @@
+import java.util.Scanner;
+
 public class controlFlow {
     public static void main(String[] args){
-        String role = "abc";
-
-        switch(role){
-            case "admin":
-                System.out.println("you're admin");
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
+        while (!input.equals("quit")){
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
+            if (input.equals("quit"))
                 break;
-
-            case "moderator":
-                System.out.println("you're a moderator");
-                break;
-
-            default:
-                System.out.println("you're a guest");
+            System.out.println(input);
         }
+        scanner.close();
     }
 }
