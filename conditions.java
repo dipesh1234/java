@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.*;
 
 public class conditions {
     public static void main(String[] args){
@@ -31,5 +30,5 @@ public class conditions {
             System.out.println("the equations has no real roots");
         }
     }
-    //scanner.close();
+    
 }
