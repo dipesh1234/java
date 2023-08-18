@@ -8,12 +8,8 @@ public class conditions {
         int input = scan.nextInt();
 
         //system checks if number is positive or negative
-        if(input >= 0){
-            System.out.println("Number is positive");
-        }
-        if(input < 0){
-            System.out.println("Number is negative");
-        }
+        String num = (input >= 0)?"Number is poitive" : "Number is negative";
+        System.out.println(num);
 
     }
 }
