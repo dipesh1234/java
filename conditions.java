@@ -29,6 +29,8 @@ public class conditions {
         else{
             System.out.println("the equations has no real roots");
         }
+
+        scan.close();
     }
     
 }
