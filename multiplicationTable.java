@@ -7,10 +7,15 @@ public class multiplicationTable {
 
         int num = scan.nextInt();
 
+        if(num>0){
         for(int i=1; i<=10; i++){
             int result = num * i;
             System.out.println(num + "x" + i + "=" + result);
         }
+    }
+    else{
+        System.out.println("enter positive number");
+    }
         scan.close();
     }
 }
